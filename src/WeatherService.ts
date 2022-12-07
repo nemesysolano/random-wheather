@@ -2,8 +2,6 @@ import axios from "axios";
 import { countries } from "./Countries";
 import { WeatherServiceResponse } from "./types";
 
-//TODO: Store these constants in environment module
-
 const API_KEY = "e8a1d606625a48088bb235114222906";
 const REQUEST_TEMPLATE = `key=${API_KEY}&q=:CITY&aqi=no`;
 const WEATHER_SERVICE_URL = "https://api.weatherapi.com/v1/current.json";
